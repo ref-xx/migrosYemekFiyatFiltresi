@@ -1,4 +1,4 @@
-# Migros Yemek Fiyat Filtresi Eklentisi
+# Yemek Sepeti / Migros Yemek Fiyat Filtresi Eklentisi
 
 
 Kurulum:
@@ -11,7 +11,7 @@ Kurulum:
 
 
 Kullanım:
-Migros.com.tr/yemek adresine gidin bir restorana girin.
+yemeksepeti.com ya da Migros.com.tr/yemek adresine gidin bir restorana girin.
 Kumbara ikonuna basın, fiyat aralığını girin ve filtrele butonuna basın.
 
 Seçtiğiniz aralıktaki ürünler görüntülenecektir.
