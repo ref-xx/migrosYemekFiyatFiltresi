@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Migros Yemek Fiyat Filtreleme Uzantısı",
+  "version": "1.0",
+  "host_permissions": ["https://*.migros.com.tr/*"],
+  "description": "Migros Yemek Web Sitesindeki bir restoranda belirli bir fiyat aralığındaki ürünleri filtrelemek için kullanılır. Yazan: Ref 2024",
+  "icons": {
+    "48": "icon48.png"
+  },
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

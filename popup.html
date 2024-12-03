@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Migros Yemek Fiyat Aralığı Filtresi by Ref2024</title>
+  <script src="popup.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+	  background: #e05951;
+	  color: GhostWhite;
+    }
+    .slider-container {
+      margin-bottom: 20px;
+    }
+    .value-display {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <p><b>Migros Yemek Fiyat Aralığı Filtresi (c)ref2024</b></p>
+
+  <!-- Alt Değer Slider -->
+  <div class="slider-container">
+    <label for="minPriceSlider">Minimum Fiyat: <span id="minPriceDisplay">100</span> TL</label>
+    <input type="range" id="minPriceSlider" min="0" max="500" step="50" value="100">
+  </div>
+
+  <!-- Üst Değer Slider -->
+  <div class="slider-container">
+    <label for="maxPriceSlider">Maksimum Fiyat: <span id="maxPriceDisplay">250</span> TL</label>
+    <input type="range" id="maxPriceSlider" min="50" max="1000" step="50" value="250">
+  </div>
+
+  <!-- Filtreleme Butonu -->
+  <button id="filterButton">Filtrele</button>
+</body>
+</html>
