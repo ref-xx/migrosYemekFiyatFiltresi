@@ -17,3 +17,4 @@ Kumbara ikonuna basın, fiyat aralığını girin ve filtrele butonuna basın.
 Seçtiğiniz aralıktaki ürünler görüntülenecektir.
 
 2024 Arda "ref" Erdikmen
+Kullanım Lisansı: Ücretsiz olarak kullanabilirsiniz, dağıtabilirsiniz, kaynağını belirttikçe ve yeni oluşturduğunuz kodu aynı şekilde açık kaynak olarak sunduğunuz sürece modifiye edebilirsiniz. 
